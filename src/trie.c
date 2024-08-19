@@ -71,3 +71,4 @@ void free_trie(TrieNode* root) {
         free_trie(root->children[i]);
     free(root);
 }
+//recursive
